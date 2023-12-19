@@ -1,0 +1,115 @@
+/*Definindo os padrões*/
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+ol {
+  margin: 0;
+  padding: 20px;
+
+}
+
+div {
+  margin: 0;
+  padding: 0;
+
+}
+
+p {
+  margin: 0;
+
+}
+
+/***********************************************/
+
+
+/*titulo da pagina*/
+#tituloPage {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+/******************************************************/
+
+
+/*menu lateral*/
+.menuLateral {
+  margin-left: 30px;
+  box-shadow: 10px 10px 5px lightblue;
+  width: 100px;
+  float: left;
+  margin-right: 50px;
+
+}
+
+ol li {
+  padding: 5px;
+
+}
+
+.itens {
+  color: black;
+  padding: 2px;
+
+}
+
+.itens:hover {
+  color: brown;
+
+}
+
+/***************************************************************/
+
+
+/*Conteudo*/
+.conteudo {}
+
+.conteudo p {
+  margin-left: 10px;
+  text-align: justify;
+  font-size: large;
+
+}
+
+.conteudo p span{
+
+  color: green;
+}
+
+
+.componentes {
+  display: inline-block;
+  box-shadow: 10px 10px 5px lightblue;
+  margin: 50px 30px;
+
+}
+.componentes:hover{
+
+  box-shadow: 30px 30px 15px lightblue;
+  
+}
+
+
+.componentes img {
+
+  width: 200px;
+  height: 100px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  
+  /* Center and scale the image nicely 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+
+}
+
+/******************************************************************/
